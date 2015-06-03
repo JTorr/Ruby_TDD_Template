@@ -21,12 +21,13 @@ git clone https://github.com/JTorr/Ruby_TDD_Template.git
 cd Ruby_TDD_Template
 ```
 3. Remove the .git file so that you can create a new Git Repository for your code:
+The ls -a command lists all files, including hidden files, so you can confirm deletion.
+
 ```
 ls -a
 rm -rf .git
 ls -a
 ```
-The ls -a command lists all files, including hidden files, so you can confirm deletion.
 4. Create a test file:
 ```
 touch test/new_test_file.rb
