@@ -23,7 +23,7 @@ cd Ruby_TDD_Template
 3. Remove the .git file so that you can create a new Git Repository for your code:
 ```
 ls -a
-rm .git
+rm -rf .git
 ls -a
 ```
 The ls -a command lists all files, including hidden files, so you can confirm deletion.
